@@ -10,22 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     @State var isDocumentPickerPresented: Bool = false
-    @State var buttonEnabled: Bool = true
     @State var documentUrl: String = ""
     
     var body: some View {
         VStack{
             Spacer()
-            TextField("Url: ", text: $documentUrl)
-                .font(.system(size: 20))
-            DocumentSelectionButton(enabled: self.$buttonEnabled, action: {
-                self.isDocumentPickerPresented = true
-            })
+            DocumentNameLabel(content: self.$documentUrl)
+                .frame(height: 40)
+            Button(action: {
+                self.isDocumentPickerPresented.toggle()
+            }, label: { Text("Document selection") })
                 .frame(height: 40, alignment: .center)
                 .sheet(isPresented: self.$isDocumentPickerPresented, content: {
                     DocumentPickerViewController { url in
                         self.documentUrl = url.lastPathComponent
-                        self.buttonEnabled = false
                     }
                 })
             Spacer()

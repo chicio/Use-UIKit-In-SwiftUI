@@ -14,7 +14,7 @@
 		45CA7F2B2475707000714F23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7F2A2475707000714F23 /* Preview Assets.xcassets */; };
 		45CA7F2E2475707000714F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CA7F2C2475707000714F23 /* LaunchScreen.storyboard */; };
 		45CA7F36247570B200714F23 /* DocumentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA7F35247570B200714F23 /* DocumentPickerViewController.swift */; };
-		45CA7F382475716B00714F23 /* DocumentSelectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA7F372475716B00714F23 /* DocumentSelectionButton.swift */; };
+		45CA7F382475716B00714F23 /* DocumentNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA7F372475716B00714F23 /* DocumentNameLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		45CA7F2D2475707000714F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45CA7F2F2475707000714F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45CA7F35247570B200714F23 /* DocumentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPickerViewController.swift; sourceTree = "<group>"; };
-		45CA7F372475716B00714F23 /* DocumentSelectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentSelectionButton.swift; sourceTree = "<group>"; };
+		45CA7F372475716B00714F23 /* DocumentNameLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentNameLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				45CA7F212475706C00714F23 /* AppDelegate.swift */,
 				45CA7F232475706C00714F23 /* SceneDelegate.swift */,
 				45CA7F252475706C00714F23 /* ContentView.swift */,
-				45CA7F372475716B00714F23 /* DocumentSelectionButton.swift */,
+				45CA7F372475716B00714F23 /* DocumentNameLabel.swift */,
 				45CA7F35247570B200714F23 /* DocumentPickerViewController.swift */,
 				45CA7F272475707000714F23 /* Assets.xcassets */,
 				45CA7F2C2475707000714F23 /* LaunchScreen.storyboard */,
@@ -152,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CA7F382475716B00714F23 /* DocumentSelectionButton.swift in Sources */,
+				45CA7F382475716B00714F23 /* DocumentNameLabel.swift in Sources */,
 				45CA7F222475706C00714F23 /* AppDelegate.swift in Sources */,
 				45CA7F36247570B200714F23 /* DocumentPickerViewController.swift in Sources */,
 				45CA7F242475706C00714F23 /* SceneDelegate.swift in Sources */,
@@ -304,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "it.chicio.Use-UIKit-In-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "it.chicio.Use-UIKit-In-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
