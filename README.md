@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Use-UIKit-In-SwiftUI/master/LICENSE.md)
 [![Supported platform](https://img.shields.io/badge/platforms-iOS-orange.svg)](https://img.shields.io/badge/platforms-iOS-orange.svg)
 
-A sample project for my blog post post [Use UIKit components in SwiftUI: UIViewControllerRepresentable and UIViewRepresentable](https://www.fabrizioduroni.it/2020/07/02/expose-uikit-to-swiftui.html), where I show 
+A sample project for my blog post post [Use UIKit components in SwiftUI: UIViewControllerRepresentable and UIViewRepresentable](https://www.fabrizioduroni.it/2020/07/02/expose-uikit-to-swiftui/), where I show 
 how you can use UIKit based components inside a SwiftUI project. 
 
 ### Description
